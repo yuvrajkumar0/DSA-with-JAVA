@@ -5,7 +5,7 @@ public class twoSum {
         for(int i= 0; i<arr.length; i++){
             for(int j=i+1; j<arr.length; j++){
                 if(arr[i] + arr[j] == target){
-                    System.out.println("your first numer is:"+ arr[i]  + "\nyour second number is:" +  arr[j]);
+                    System.out.println("your first numer is:"+ i  + "\nyour second number is:" +  j);
                 }
             }
         }
