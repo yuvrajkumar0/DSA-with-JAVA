@@ -158,8 +158,6 @@ public class revision {
          System.out.println("Intersection " + intersection);
     }
 }
-    */
-
 // Find The Missing Number:
 
 public class revision {
@@ -181,8 +179,20 @@ public class revision {
 
     }
 }
-
-
+    */
+   // Find Missing Number:
+   public class revision {
+    public static void main(String[] args) {
+        int num []= {1,2,4,5};
+        int n = 5;
+        int sum = n*(n+1)/2;
+        int s2 = 0;
+        for(int i=0; i<num.length; i++){
+         s2 = s2+num[i];
+        }
+        System.out.println("Missing Number is: " + (sum-s2));
+    }
+}
 
 
 
