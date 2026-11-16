@@ -1,3 +1,4 @@
+
 /*public class revision {
     public static void main(String[] args) {
         // sum of all element in the array:
@@ -92,7 +93,7 @@ public class revision {
     }
 }
 
-*/
+
 public class revision {
     public static void main(String[] args) {
 
@@ -110,6 +111,27 @@ public class revision {
         }else{
             System.out.println("This array is not sorted:");
         }
+    }
+}
+    */
+
+import  java.util.*;
+public class revision {
+    public static void main(String[] args) {
+        int arr1 [] = {1,9,1,2,3,4,5,7,3};
+        int arr2 []= {2,3,4,4,5,6};
+
+        Set<Integer> set = new HashSet<>();
+        for(int i=0; i<arr1.length; i++){
+            set.add(arr1[i]);
+
+        }
+        for(int i=0; i<arr2.length; i++){
+            set.add(arr2[i]);
+
+        }
+        ArrayList <Integer> union  = new ArrayList<>(set);
+         System.out.println(union);
     }
 }
 
