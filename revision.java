@@ -134,7 +134,7 @@ public class revision {
          System.out.println(union);
     }
 }
-    */
+    
 import  java.util.*;
 public class revision {
     public static void main(String[] args) {
@@ -158,6 +158,30 @@ public class revision {
          System.out.println("Intersection " + intersection);
     }
 }
+    */
+
+// Find The Missing Number:
+
+public class revision {
+    public static void main(String[] args) {
+        int num [] = {1,2,4,5};
+        int sum1 = 0;
+        int sum2 = 0;
+        
+        for(int i=1; i<=5; i++){
+             sum1 = sum1+i;
+        }
+
+           for(int i=0; i<num.length; i++){
+             sum2 = sum2+num[i];
+        }
+        int missingNumber = sum1-sum2;
+         System.out.println("Missing Number is " + missingNumber);
+  
+
+    }
+}
+
 
 
 
